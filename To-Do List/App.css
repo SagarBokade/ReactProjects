@@ -1,0 +1,33 @@
+.App{
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: rgb(129, 126, 126);
+}
+input{
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+button{
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+ul{
+  list-style-type: none;
+  padding: 0; 
+}
+li{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+li button{
+  background: red;
+  color: rgb(255, 7, 7);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
